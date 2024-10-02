@@ -23,7 +23,7 @@ console.log(longNames);
 let index = teachers.indexOf('Ed')
 if(index !== -1){
   teachers.splice(index, 1)
-}
+} 
 console.log(teachers);
 
 
