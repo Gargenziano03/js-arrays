@@ -19,15 +19,11 @@ console.log(teachers);
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-teachers.pop()
-console.log(teachers)
-const lastTeacher = 'luca';
+const lastTeacher = teachers.pop()
 console.log(lastTeacher);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-teachers.shift()
-console.log(teachers)
-const firstTeacher = 'Nathan';
+const firstTeacher = teachers.shift();
 console.log(firstTeacher);
 
 
@@ -42,7 +38,10 @@ console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.includes('Fabio');
+console.log(isFabioPresent);
+
+
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
